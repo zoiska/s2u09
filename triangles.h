@@ -6,6 +6,13 @@
 #include <stdexcept>
 #include <typeinfo>
 
-std::string triangles();
+class triangle{
+public:
+    triangle(int a, int b, int c);
+private:
+    int a;
+    int b;
+    int c;
+};
 
 #endif //TRIANGLES_H

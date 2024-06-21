@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(s2u09 main.cpp
         triangles.cpp
-        triangles.h)
+        triangles.h
+        parkplatz.cpp
+        parkplatz.h
+        ParkplatzException.cpp
+        ParkplatzException.h)
