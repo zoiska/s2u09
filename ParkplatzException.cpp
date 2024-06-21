@@ -4,4 +4,4 @@ ParkplatzException::ParkplatzException(const std::string &errorMsg) : std::runti
 
 ParkplatzIstVollException::ParkplatzIstVollException(int kfz) : ParkplatzException("Parkplatz ist voll.") {}
 
-ParkplatzIstLeerException::ParkplatzIstLeerException(int kfz) : ParkplatzException("Parkplatz ist leer."){}
+ParkplatzIstLeerException::ParkplatzIstLeerException(int kfz) : ParkplatzException("Parkplatz ist leer.") {}

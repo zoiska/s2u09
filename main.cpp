@@ -42,7 +42,7 @@ int main() {
         Parkplatz parkplatz;
         for ( int i = 0; i < 52; ++i) {
             parkplatz.ankommen();
-            std::cout << "tzu" << "\n";
+            std::cout << "test" << "\n";
         }
     }
     catch (const std::runtime_error &error) {
